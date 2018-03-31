@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: java-old-utils
+Bundle-SymbolicName: java-old-utils
+Bundle-Version: 1.0.0.qualifier
+Export-Package: de.kit.ipd.java.utils.framework.statemachine,
+ de.kit.ipd.java.utils.framework.table,
+ de.kit.ipd.java.utils.io,
+ de.kit.ipd.java.utils.parsing.csv,
+ de.kit.ipd.java.utils.parsing.html,
+ de.kit.ipd.java.utils.strings,
+ de.kit.ipd.java.utils.time,
+ de.kit.ipd.java.utils.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
