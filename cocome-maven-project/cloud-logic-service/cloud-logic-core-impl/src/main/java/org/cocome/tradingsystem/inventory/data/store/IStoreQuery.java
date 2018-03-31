@@ -20,6 +20,8 @@ import java.util.Collection;
 
 import javax.ejb.Local;
 
+import org.cocome.tradingsystem.inventory.application.store.IStoreInventoryLocal;
+import org.cocome.tradingsystem.inventory.application.store.IStoreInventoryManagerLocal;
 import org.cocome.tradingsystem.inventory.data.enterprise.IProduct;
 import org.cocome.tradingsystem.util.exception.NotInDatabaseException;
 
