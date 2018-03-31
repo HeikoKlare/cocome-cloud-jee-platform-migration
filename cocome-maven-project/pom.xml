@@ -9,6 +9,7 @@
 	<name>CoCoME (Parent and Release Engineering)</name>
 
 	<modules>
+		<module>ecorification-utils</module>
 		<module>cloud-logic-service</module>
 		<module>cloud-web-frontend</module>
 	</modules>
