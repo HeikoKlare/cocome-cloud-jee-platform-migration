@@ -3,7 +3,7 @@
 <plugin>
   <extension point="org.eclipse.sirius.componentization">
     <component class="cocome.siriuseditor.Activator"
-               id="cloud-logic-store-impl-sirius-editor"
+               id="cloud-logic-core-impl-sirius-editor"
 	       name="cocome">
     </component>
   </extension>
