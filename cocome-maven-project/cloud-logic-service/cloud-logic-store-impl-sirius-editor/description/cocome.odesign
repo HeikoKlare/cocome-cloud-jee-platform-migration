@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="project" version="12.0.0.2017041100">
+  <ownedViewpoints name="cocome-system-view" modelFileExtension="cocome">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="cocome-system" domainClass="ecore::RootContainer" enablePopupBars="true">
+      <metamodel href="cloud-logic-core-impl/ecore#/"/>
+      <metamodel href="cloud-logic-core-impl/ecore#//store"/>
+      <metamodel href="cloud-logic-core-impl/ecore#//enterprise"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="stockItem" domainClass="store::StockItem">
+          <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="Item" sizeComputationExpression="0" labelPosition="node" resizeKind="NSEW" width="4" height="3">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="store" labelDirectEdit="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@defaultLayer/@toolSections.0/@ownedTools[name='EditName']" domainClass="store::Store">
+          <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="['Store:\n ' + name/]" sizeComputationExpression="" labelPosition="node" resizeKind="NSEW" width="10" height="4">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="ItemInStore" sourceMapping="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@defaultLayer/@nodeMappings[name='stockItem']" targetMapping="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@defaultLayer/@nodeMappings[name='store']" targetFinderExpression="feature:store">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateStore" label="Store" nodeMappings="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@defaultLayer/@nodeMappings[name='store']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="store::Store" referenceName="containedElements"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateItem" label="StockItem" nodeMappings="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@defaultLayer/@nodeMappings[name='stockItem']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="store::StockItem" referenceName="containedElements"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateItemInStore" label="StockItem In Store" edgeMappings="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@defaultLayer/@edgeMappings[name='ItemInStore']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="store" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditName" inputLabelExpression="feature:name">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+      <additionalLayers name="Products">
+        <nodeMappings name="product" labelDirectEdit="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@defaultLayer/@toolSections.0/@ownedTools[name='EditName']" domainClass="enterprise::Product">
+          <style xsi:type="style:EllipseNodeDescription" showIcon="false" sizeComputationExpression="0" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="12" verticalDiameterComputationExpression="4">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="ProductOfItem" sourceMapping="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@defaultLayer/@nodeMappings[name='stockItem']" targetMapping="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@additionalLayers[name='Products']/@nodeMappings[name='product']" targetFinderExpression="feature:product">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateProduct" label="Product" nodeMappings="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@additionalLayers[name='Products']/@nodeMappings[name='product']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="enterprise::Product" referenceName="containedElements"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateProductOfItem" label="Product of StockItem" edgeMappings="//@ownedViewpoints[name='cocome-system-view']/@ownedRepresentations[name='cocome-system']/@additionalLayers[name='Products']/@edgeMappings[name='ProductOfItem']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="product" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </additionalLayers>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
