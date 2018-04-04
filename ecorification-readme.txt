@@ -1,0 +1,5 @@
+This is a slightly modified version of the original CoCoME project.
+Modifications especially concern some additional required dependencies and additional metadata for plugin projects, as the Ecorification process requires Eclipse plugins. Additionally, we moved some API classes from the cloud-logic-service-api project to the cloud-logic-service-impl project, because the Ecorification implementation is technically limited to one project at the moment, which required some interfaces that have to exist in the model to be moved to the ecorified implementation project.
+
+To change between the original implementation and the ecorified version in the Maven build, just modify the cloud-logic-service pom.xml: select between the original "*-impl" project and the "*-impl-ecorified" one.
+If you import all projects into your Eclipse environment, you can also use EMF-based editors and the provided Sirius editor to model a CoCoME system. The Sirius editor currently supports editing of stores, stock items and products to show the applicability of the approach.
