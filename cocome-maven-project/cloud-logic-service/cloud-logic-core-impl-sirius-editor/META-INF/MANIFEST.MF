@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-SymbolicName: cloud-logic-store-impl-sirius-editor;singleton:=true
+Bundle-SymbolicName: cloud-logic-core-impl-sirius-editor;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: cocome.siriuseditor.Activator
 Bundle-Localization: plugin
