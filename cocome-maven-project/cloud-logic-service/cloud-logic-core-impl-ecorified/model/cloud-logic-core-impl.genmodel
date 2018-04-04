@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/cloud-logic-core-impl-ecorified/src/main/java" modelPluginID="cloud-logic-core-impl-ecorified" modelName="cloud-logic-core-impl" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>cloud-logic-core-impl.ecore</foreignModel>
+  <genPackages prefix="Ecore" disposableProviderFactory="true" fileExtensions="cocome">
+    <ecorePackage href="cloud-logic-core-impl.ecore#/"/>
+    <genClasses>
+      <ecoreClass href="cloud-logic-core-impl.ecore#//RootContainer"/>
+      <genFeatures property="None" children="true" createChild="true">
+        <ecoreFeature xsi:type="ecore:EReference" href="cloud-logic-core-impl.ecore#//RootContainer/containedElements"/>
+      </genFeatures>
+    </genClasses>
+    <nestedGenPackages prefix="Datatypes" disposableProviderFactory="true">
+      <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes"/>
+      <genDataTypes>
+        <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/longArray"/>
+      </genDataTypes>
+      <nestedGenPackages prefix="Java" disposableProviderFactory="true">
+        <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/java"/>
+        <nestedGenPackages prefix="Io" disposableProviderFactory="true">
+          <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/java/io"/>
+          <genDataTypes>
+            <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/io/IOException"/>
+          </genDataTypes>
+        </nestedGenPackages>
+        <nestedGenPackages prefix="Lang" disposableProviderFactory="true">
+          <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/java/lang"/>
+          <genDataTypes>
+            <genTypeParameters>
+              <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/java/lang/ThreadLocal/T"/>
+            </genTypeParameters>
+            <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/lang/ThreadLocal"/>
+          </genDataTypes>
+          <nestedGenPackages prefix="Annotation" disposableProviderFactory="true">
+            <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/java/lang/annotation"/>
+            <genDataTypes>
+              <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/lang/annotation/Annotation"/>
+            </genDataTypes>
+          </nestedGenPackages>
+        </nestedGenPackages>
+        <nestedGenPackages prefix="Util" disposableProviderFactory="true">
+          <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/java/util"/>
+          <genDataTypes>
+            <genTypeParameters>
+              <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/java/util/Collection/E"/>
+            </genTypeParameters>
+            <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/util/Collection"/>
+          </genDataTypes>
+          <genDataTypes>
+            <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/util/Date"/>
+          </genDataTypes>
+          <genDataTypes>
+            <genTypeParameters>
+              <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/java/util/HashMap/K"/>
+            </genTypeParameters>
+            <genTypeParameters>
+              <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/java/util/HashMap/V"/>
+            </genTypeParameters>
+            <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/util/HashMap"/>
+          </genDataTypes>
+          <genDataTypes>
+            <genTypeParameters>
+              <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/java/util/Iterator/E"/>
+            </genTypeParameters>
+            <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/util/Iterator"/>
+          </genDataTypes>
+          <genDataTypes>
+            <genTypeParameters>
+              <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/java/util/Map/K"/>
+            </genTypeParameters>
+            <genTypeParameters>
+              <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/java/util/Map/V"/>
+            </genTypeParameters>
+            <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/util/Map"/>
+          </genDataTypes>
+          <genDataTypes>
+            <genTypeParameters>
+              <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/java/util/Set/E"/>
+            </genTypeParameters>
+            <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/util/Set"/>
+          </genDataTypes>
+          <nestedGenPackages prefix="Concurrent" disposableProviderFactory="true">
+            <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/java/util/concurrent"/>
+            <genDataTypes>
+              <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/java/util/concurrent/TimeUnit"/>
+            </genDataTypes>
+          </nestedGenPackages>
+        </nestedGenPackages>
+      </nestedGenPackages>
+      <nestedGenPackages prefix="Javax" disposableProviderFactory="true">
+        <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/javax"/>
+        <nestedGenPackages prefix="Ejb" disposableProviderFactory="true">
+          <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/javax/ejb"/>
+          <genDataTypes>
+            <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/javax/ejb/CreateException"/>
+          </genDataTypes>
+        </nestedGenPackages>
+        <nestedGenPackages prefix="Enterprise" disposableProviderFactory="true">
+          <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise"/>
+          <nestedGenPackages prefix="Context" disposableProviderFactory="true">
+            <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/context"/>
+            <genDataTypes>
+              <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/context/ContextNotActiveException"/>
+            </genDataTypes>
+            <nestedGenPackages prefix="Spi" disposableProviderFactory="true">
+              <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/context/spi"/>
+              <genDataTypes>
+                <genTypeParameters>
+                  <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/context/spi/Contextual/T"/>
+                </genTypeParameters>
+                <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/context/spi/Contextual"/>
+              </genDataTypes>
+              <genDataTypes>
+                <genTypeParameters>
+                  <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/context/spi/CreationalContext/T"/>
+                </genTypeParameters>
+                <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/context/spi/CreationalContext"/>
+              </genDataTypes>
+            </nestedGenPackages>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Inject" disposableProviderFactory="true">
+            <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/inject"/>
+            <genDataTypes>
+              <genTypeParameters>
+                <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/inject/Instance/T"/>
+              </genTypeParameters>
+              <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/inject/Instance"/>
+            </genDataTypes>
+            <nestedGenPackages prefix="Spi" disposableProviderFactory="true">
+              <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/inject/spi"/>
+              <genDataTypes>
+                <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/inject/spi/AfterBeanDiscovery"/>
+              </genDataTypes>
+              <genDataTypes>
+                <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/inject/spi/BeanManager"/>
+              </genDataTypes>
+              <genDataTypes>
+                <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/javax/enterprise/inject/spi/BeforeBeanDiscovery"/>
+              </genDataTypes>
+            </nestedGenPackages>
+          </nestedGenPackages>
+        </nestedGenPackages>
+      </nestedGenPackages>
+      <nestedGenPackages prefix="Org" disposableProviderFactory="true">
+        <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org"/>
+        <nestedGenPackages prefix="Cocome" disposableProviderFactory="true">
+          <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome"/>
+          <nestedGenPackages prefix="Tradingsystem" disposableProviderFactory="true">
+            <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem"/>
+            <nestedGenPackages prefix="Inventory" disposableProviderFactory="true">
+              <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory"/>
+              <nestedGenPackages prefix="Application" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application"/>
+                <nestedGenPackages prefix="Store" disposableProviderFactory="true">
+                  <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store"/>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/ComplexOrderEntryTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/ComplexOrderTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/CustomerWithStoreTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/EnterpriseTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/OrderEntryTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/OrderTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/ProductTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/ProductWithStockItemTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/ProductWithSupplierAndStockItemTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/ProductWithSupplierTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/StockItemTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/StoreTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/StoreWithEnterpriseTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/store/SupplierTO"/>
+                  </genDataTypes>
+                </nestedGenPackages>
+                <nestedGenPackages prefix="Usermanager" disposableProviderFactory="true">
+                  <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/usermanager"/>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/CredentialTO"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/CredentialType"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/CredentialTypeNotFoundException"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/Role"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/UserTO"/>
+                  </genDataTypes>
+                  <nestedGenPackages prefix="Credentials" disposableProviderFactory="true">
+                    <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/credentials"/>
+                    <genDataTypes>
+                      <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/credentials/ICredential"/>
+                    </genDataTypes>
+                  </nestedGenPackages>
+                </nestedGenPackages>
+              </nestedGenPackages>
+              <nestedGenPackages prefix="Data" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data"/>
+                <nestedGenPackages prefix="Enterprise" disposableProviderFactory="true">
+                  <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/enterprise"/>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IEnterpriseQuery"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IProductSupplier"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/ITradingEnterprise"/>
+                  </genDataTypes>
+                </nestedGenPackages>
+                <nestedGenPackages prefix="Persistence" disposableProviderFactory="true">
+                  <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/persistence"/>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException"/>
+                  </genDataTypes>
+                </nestedGenPackages>
+                <nestedGenPackages prefix="Store" disposableProviderFactory="true">
+                  <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/store"/>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/store/IOrderEntry"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/store/IStoreQuery"/>
+                  </genDataTypes>
+                </nestedGenPackages>
+                <nestedGenPackages prefix="Usermanager" disposableProviderFactory="true">
+                  <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/usermanager"/>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/ICustomer"/>
+                  </genDataTypes>
+                  <genDataTypes>
+                    <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/IUser"/>
+                  </genDataTypes>
+                </nestedGenPackages>
+              </nestedGenPackages>
+            </nestedGenPackages>
+            <nestedGenPackages prefix="Util" disposableProviderFactory="true">
+              <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util"/>
+              <nestedGenPackages prefix="Exception" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util/exception"/>
+                <genDataTypes>
+                  <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException"/>
+                </genDataTypes>
+              </nestedGenPackages>
+              <nestedGenPackages prefix="Scope" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util/scope"/>
+                <genDataTypes>
+                  <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry"/>
+                </genDataTypes>
+                <genDataTypes>
+                  <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+                </genDataTypes>
+                <nestedGenPackages prefix="Context" disposableProviderFactory="true">
+                  <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util/scope/context"/>
+                  <nestedGenPackages prefix="NamedSessionContextHolder" disposableProviderFactory="true">
+                    <ecorePackage href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder"/>
+                    <genDataTypes>
+                      <genTypeParameters>
+                        <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/NamedSessionInstance/T"/>
+                      </genTypeParameters>
+                      <ecoreDataType href="cloud-logic-core-impl.ecore#//datatypes/org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/NamedSessionInstance"/>
+                    </genDataTypes>
+                  </nestedGenPackages>
+                </nestedGenPackages>
+              </nestedGenPackages>
+            </nestedGenPackages>
+          </nestedGenPackages>
+        </nestedGenPackages>
+      </nestedGenPackages>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Org" disposableProviderFactory="true">
+      <ecorePackage href="cloud-logic-core-impl.ecore#//org"/>
+      <nestedGenPackages prefix="Cocome" disposableProviderFactory="true">
+        <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome"/>
+        <nestedGenPackages prefix="Tradingsystem" disposableProviderFactory="true">
+          <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem"/>
+          <nestedGenPackages prefix="Inventory" disposableProviderFactory="true">
+            <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory"/>
+            <nestedGenPackages prefix="Application" disposableProviderFactory="true">
+              <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/application"/>
+              <nestedGenPackages prefix="Usermanager" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/application/usermanager"/>
+                <nestedGenPackages prefix="Credentials" disposableProviderFactory="true">
+                  <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/application/usermanager/credentials"/>
+                </nestedGenPackages>
+              </nestedGenPackages>
+            </nestedGenPackages>
+            <nestedGenPackages prefix="Data" disposableProviderFactory="true">
+              <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data"/>
+              <nestedGenPackages prefix="Enterprise" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise"/>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory"/>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/getNewProduct"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/getNewProductSupplier"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/getNewTradingEnterprise"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/convertToProduct"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/convertToProduct/productTO"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/fillProductTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/fillProductTO/product"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/convertToEnterprise"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/convertToEnterprise/enterpriseTO"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/fillEnterpriseTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/fillEnterpriseTO/enterprise"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/convertToSupplier"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/convertToSupplier/supplierTO"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/fillSupplierTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/fillSupplierTO/supplier"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/fillProductWithSupplierTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/EnterpriseDatatypesFactory/fillProductWithSupplierTO/product"/>
+                    </genParameters>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/Product"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/Product/id"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/Product/barcode"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/Product/purchasePrice"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/Product/name"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/Product/supplier"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/Product/enterpriseQuery"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/Product/registry"/>
+                  </genFeatures>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/ProductSupplier"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/ProductSupplier/id"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/ProductSupplier/name"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/ProductSupplier/products"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/ProductSupplier/enterpriseQuery"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/ProductSupplier/registry"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/ProductSupplier/initProductSupplier"/>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/TradingEnterprise"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/TradingEnterprise/id"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/TradingEnterprise/name"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/TradingEnterprise/suppliers"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/TradingEnterprise/stores"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/TradingEnterprise/enterpriseQuery"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/TradingEnterprise/initTradingEnterprise"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/TradingEnterprise/toString"/>
+                  </genOperations>
+                </genClasses>
+                <genClasses image="false">
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                </genClasses>
+              </nestedGenPackages>
+              <nestedGenPackages prefix="Persistence" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence"/>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext"/>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity/productOrder"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity/stockItem"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.1"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.1/stockItem"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.1"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.1/enterprise"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.2"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.2/productOrder"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.2"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.2/enterprise"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.3"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.3/store"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.3"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.3/store"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.4"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.4/supplier"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.4"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.4/supplier"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.5"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.5/product"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.5"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.5/product"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.6"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.6/entity"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.6"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.6/entity"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.7"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.7/user"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.7"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.7/user"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.8"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/createEntity.8/customer"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.8"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/CloudPersistenceContext/updateEntity.8/customer"/>
+                    </genParameters>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/ServiceAdapterEntityConverter"/>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/persistence/ServiceAdapterHeaders"/>
+                </genClasses>
+              </nestedGenPackages>
+              <nestedGenPackages prefix="Store" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store"/>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider"/>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStore"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStore/name"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStore/location"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStoreById"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStoreById/storeId"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStockItemById"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStockItemById/stockItemId"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProductById"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProductById/productId"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProductByBarcode"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProductByBarcode/barcode"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryOrderById"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryOrderById/orderId"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProducts"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProducts/storeId"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryOutstandingOrders"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryOutstandingOrders/storeId"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryAllStockItems"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryAllStockItems/storeId"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryLowStockItems"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryLowStockItems/storeId"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStockItem"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStockItem/storeId"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStockItem/productBarcode"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStockItemsByProductId"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStockItemsByProductId/storeId"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryStockItemsByProductId/productIds"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProductOrder"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProductOrder/storeId"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProductOrder/productBarcode"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryProductOrder/amount"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryAllOrders"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/EnterpriseStoreQueryProvider/queryAllOrders/storeId"/>
+                    </genParameters>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/OrderEntry"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/OrderEntry/id"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/OrderEntry/amount"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/OrderEntry/productBarcode"/>
+                  </genFeatures>
+                  <genFeatures notify="false" createChild="false" propertySortChoices="true">
+                    <ecoreFeature xsi:type="ecore:EReference" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/OrderEntry/product"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/OrderEntry/storeQuery"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/OrderEntry/initOrderEntry"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/OrderEntry/toString"/>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/ProductOrder"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/ProductOrder/id"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/ProductOrder/deliveryDate"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/ProductOrder/orderingDate"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/ProductOrder/orderEntries"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/ProductOrder/storeName"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/ProductOrder/storeLocation"/>
+                  </genFeatures>
+                  <genFeatures notify="false" createChild="false" propertySortChoices="true">
+                    <ecoreFeature xsi:type="ecore:EReference" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/ProductOrder/store"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/ProductOrder/storeQuery"/>
+                  </genFeatures>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/id"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/salesPrice"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/amount"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/minStock"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/maxStock"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/incomingAmount"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/storeName"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/storeLocation"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/productBarcode"/>
+                  </genFeatures>
+                  <genFeatures notify="false" createChild="false" propertySortChoices="true">
+                    <ecoreFeature xsi:type="ecore:EReference" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/store"/>
+                  </genFeatures>
+                  <genFeatures notify="false" createChild="false" propertySortChoices="true">
+                    <ecoreFeature xsi:type="ecore:EReference" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/product"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StockItem/storeQuery"/>
+                  </genFeatures>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/id"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/name"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/location"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/enterpriseName"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/enterprise"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/productOrders"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/stockItems"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/initStore"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/toString"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/compareTo"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/Store/compareTo/o"/>
+                    </genParameters>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory"/>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/getNewOrderEntry"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/getNewProductOrder"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/getNewStockItem"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/getNewStore"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/convertToOrderEntry"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/convertToOrderEntry/entryTO"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillComplexOrderEntryTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillComplexOrderEntryTO/entry"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/convertToProductOrder"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/convertToProductOrder/orderTO"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillComplexOrderTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillComplexOrderTO/order"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/convertToStockItem"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/convertToStockItem/stockItemTO"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillStockItemTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillStockItemTO/stockItem"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/convertToStore"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/convertToStore/storeTO"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillStoreTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillStoreTO/store"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillOrderEntryTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillOrderEntryTO/entry"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillOrderTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillOrderTO/order"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillProductWithStockItemTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillProductWithStockItemTO/stockItem"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillProductWithSupplierAndStockItemTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillProductWithSupplierAndStockItemTO/stockItem"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillStoreWithEnterpriseTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/StoreDatatypesFactory/fillStoreWithEnterpriseTO/store"/>
+                    </genParameters>
+                  </genOperations>
+                </genClasses>
+                <genClasses image="false">
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                </genClasses>
+                <genClasses image="false">
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                </genClasses>
+              </nestedGenPackages>
+              <nestedGenPackages prefix="Usermanager" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager"/>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/id"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/firstName"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/lastName"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/mailAddress"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/creditCardInfoSet"/>
+                  </genFeatures>
+                  <genFeatures notify="false" createChild="false" propertySortChoices="true">
+                    <ecoreFeature xsi:type="ecore:EReference" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/preferredStore"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/user"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/getCreditCardInfo"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/setCreditCardInfo"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/setCreditCardInfo/creditCardInfo"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/addCreditCardInfo"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/addCreditCardInfo/creditCardInfo"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/removeCreditCardInfo"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/Customer/removeCreditCardInfo/creditCardInfo"/>
+                    </genParameters>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/username"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/credentials"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/roles"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/initUser"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/initUser.1"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/initUser.1/userTO"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/addCredential"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/addCredential/credential"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/removeCredential"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/removeCredential/credentialType"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/checkCredential"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/checkCredential/credential"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/checkUserCredentials"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/checkUserCredentials/userToCheck"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/hasRole"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/hasRole/role"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/addRole"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/addRole/role"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/withdrawRole"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/withdrawRole/role"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/resetCredential"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/resetCredential/credentialType"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/getCredential"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/User/getCredential/credentialType"/>
+                    </genParameters>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory"/>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/getNewUser"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/fillCustomerWithStoreTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/fillCustomerWithStoreTO/customer"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/fillCredentialTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/fillCredentialTO/credential"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/fillUserTO"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/fillUserTO/user"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/convertToUser"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/convertToUser/userTO"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/inventory/data/usermanager/UsermanagerDatatypesFactory/getNewCustomer"/>
+                  </genOperations>
+                </genClasses>
+              </nestedGenPackages>
+            </nestedGenPackages>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Remote" disposableProviderFactory="true">
+            <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote"/>
+            <nestedGenPackages prefix="Access" disposableProviderFactory="true">
+              <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access"/>
+              <nestedGenPackages prefix="Connection" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection"/>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/backendHost"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/backendPort"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/backendSetDataURL"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/message"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/sendUpdateQuery"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/sendUpdateQuery/entity"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/sendUpdateQuery/header"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/sendUpdateQuery/content"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/sendCreateQuery"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/sendCreateQuery/entity"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/sendCreateQuery/header"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/sendCreateQuery/content"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/CSVBackendConnection/getResponse"/>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/backendHost"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/backendPort"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/backendGetDataURL"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/message"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getXMLFromBackend"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getXMLFromBackend/urlString"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getProducts"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getProducts/cond"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getEnterprises"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getEnterprises/cond"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getStores"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getStores/cond"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getStockItems"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getStockItems/cond"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getProductOrder"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getProductOrder/cond"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getProductSupplier"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getProductSupplier/cond"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getEntity"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getEntity/entity"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getEntity/cond"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getUser"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getUser/cond"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getCustomer"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/GetXMLFromBackend/getCustomer/cond"/>
+                    </genParameters>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/connection/QueryParameterEncoder"/>
+                </genClasses>
+              </nestedGenPackages>
+              <nestedGenPackages prefix="Parsing" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing"/>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper"/>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getStores"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getStores/input"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getCustomers"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getCustomers/input"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getUsers"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getUsers/input"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getEnterprises"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getEnterprises/input"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getStockItems"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getStockItems/input"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getProducts"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getProducts/input"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getProductSuppliers"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getProductSuppliers/input"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getProductOrders"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/CSVHelper/getProductOrders/input"/>
+                    </genParameters>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/MessageToCSV"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/MessageToCSV/message"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/MessageToCSV/getCSV"/>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/ParserPostMessage"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/ParserPostMessage/response"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/ParserPostMessage/message"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/ParserPostMessage/time"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/ParserPostMessage/lebel"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/ParserPostMessage/status"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/remote/access/parsing/ParserPostMessage/description"/>
+                  </genFeatures>
+                </genClasses>
+              </nestedGenPackages>
+            </nestedGenPackages>
+          </nestedGenPackages>
+          <nestedGenPackages prefix="Util" disposableProviderFactory="true">
+            <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util"/>
+            <nestedGenPackages prefix="Java" disposableProviderFactory="true">
+              <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java"/>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/Assert"/>
+              </genClasses>
+              <genClasses>
+                <genTypeParameters>
+                  <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualElement/T"/>
+                </genTypeParameters>
+                <genTypeParameters>
+                  <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualElement/E"/>
+                </genTypeParameters>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualElement"/>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualElement/elem1"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualElement/elem2"/>
+                </genFeatures>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualElement/getFirstElement"/>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualElement/getSecondElement"/>
+                </genOperations>
+              </genClasses>
+              <genClasses>
+                <genTypeParameters>
+                  <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator/T"/>
+                </genTypeParameters>
+                <genTypeParameters>
+                  <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator/E"/>
+                </genTypeParameters>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator"/>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator/coll1"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator/coll2"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator/iterator1"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator/iterator2"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator/currElement1"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator/currElement2"/>
+                </genFeatures>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/DualIterator/iterator"/>
+                </genOperations>
+              </genClasses>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/Iterables"/>
+              </genClasses>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/Lists"/>
+              </genClasses>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/Maps"/>
+              </genClasses>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/Reflection"/>
+              </genClasses>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/Sets"/>
+              </genClasses>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/Swing"/>
+              </genClasses>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan"/>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan/__value"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan/__unit"/>
+                </genFeatures>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan/getDuration"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan/getDuration/unit"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan/equals"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan/equals/object"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan/hashCode"/>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan/compareTo"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/java/TimeSpan/compareTo/that"/>
+                  </genParameters>
+                </genOperations>
+              </genClasses>
+            </nestedGenPackages>
+            <nestedGenPackages prefix="Scope" disposableProviderFactory="true">
+              <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope"/>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry"/>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/attributeMap"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/contextName"/>
+                </genFeatures>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/getLong"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/getLong/name"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/putLong"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/putLong/name"/>
+                  </genParameters>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/putLong/value"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/getString"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/getString/name"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/putString"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/putString/name"/>
+                  </genParameters>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/putString/value"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/getObject"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/getObject/name"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/putObject"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/putObject/name"/>
+                  </genParameters>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/putObject/value"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/hasObject"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/hasObject/name"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/hasLong"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistry/hasLong/name"/>
+                  </genParameters>
+                </genOperations>
+              </genClasses>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistryFactory"/>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistryFactory/manager"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistryFactory/storeContext"/>
+                </genFeatures>
+                <genFeatures createChild="false">
+                  <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistryFactory/enterpriseContext"/>
+                </genFeatures>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistryFactory/getCashDeskContextRegistry"/>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistryFactory/getStoreContextRegistry"/>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskRegistryFactory/getEnterpriseContextRegistry"/>
+                </genOperations>
+              </genClasses>
+              <genClasses>
+                <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskSessionScopeExtension"/>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskSessionScopeExtension/addScope"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskSessionScopeExtension/addScope/event"/>
+                  </genParameters>
+                </genOperations>
+                <genOperations>
+                  <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskSessionScopeExtension/registerContext"/>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskSessionScopeExtension/registerContext/event"/>
+                  </genParameters>
+                  <genParameters>
+                    <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/CashDeskSessionScopeExtension/registerContext/manager"/>
+                  </genParameters>
+                </genOperations>
+              </genClasses>
+              <nestedGenPackages prefix="Context" disposableProviderFactory="true">
+                <ecorePackage href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context"/>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/isActive.1"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/providedScope"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/context"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/contextHolder"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/getScope"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get/contextual"/>
+                    </genParameters>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get/creationalContext"/>
+                    </genParameters>
+                    <genTypeParameters>
+                      <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get/T"/>
+                    </genTypeParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get.1"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get.1/contextual"/>
+                    </genParameters>
+                    <genTypeParameters>
+                      <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get.1/T"/>
+                    </genTypeParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/isActive"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/activate"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/activate/context"/>
+                    </genParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/deactivateCurrentContext"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/getName"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/deleteCurrentContext"/>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/getActiveContext"/>
+                  </genOperations>
+                </genClasses>
+                <genClasses>
+                  <ecoreClass href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder"/>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/beans"/>
+                  </genFeatures>
+                  <genFeatures createChild="false">
+                    <ecoreFeature xsi:type="ecore:EAttribute" href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/contextName"/>
+                  </genFeatures>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/getBean"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/getBean/type"/>
+                    </genParameters>
+                    <genTypeParameters>
+                      <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/getBean/T"/>
+                    </genTypeParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/putBean"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/putBean/cashDeskInstance"/>
+                    </genParameters>
+                    <genTypeParameters>
+                      <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/putBean/T"/>
+                    </genTypeParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/destroyBean"/>
+                    <genParameters>
+                      <ecoreParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/destroyBean/cashDeskInstance"/>
+                    </genParameters>
+                    <genTypeParameters>
+                      <ecoreTypeParameter href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/destroyBean/T"/>
+                    </genTypeParameters>
+                  </genOperations>
+                  <genOperations>
+                    <ecoreOperation href="cloud-logic-core-impl.ecore#//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/destroyAllBeans"/>
+                  </genOperations>
+                </genClasses>
+              </nestedGenPackages>
+            </nestedGenPackages>
+          </nestedGenPackages>
+        </nestedGenPackages>
+      </nestedGenPackages>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

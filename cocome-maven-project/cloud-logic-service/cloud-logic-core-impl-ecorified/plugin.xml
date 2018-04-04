@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore"
+            class="ecore.EcorePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes"
+            class="ecore.datatypes.DatatypesPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.java.io"
+            class="ecore.datatypes.java.io.IoPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.java.lang"
+            class="ecore.datatypes.java.lang.LangPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.java.lang.annotation"
+            class="ecore.datatypes.java.lang.annotation.AnnotationPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.java.util"
+            class="ecore.datatypes.java.util.UtilPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.java.util.concurrent"
+            class="ecore.datatypes.java.util.concurrent.ConcurrentPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.javax.ejb"
+            class="ecore.datatypes.javax.ejb.EjbPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.javax.enterprise.context"
+            class="ecore.datatypes.javax.enterprise.context.ContextPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.javax.enterprise.context.spi"
+            class="ecore.datatypes.javax.enterprise.context.spi.SpiPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.javax.enterprise.inject"
+            class="ecore.datatypes.javax.enterprise.inject.InjectPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.javax.enterprise.inject.spi"
+            class="ecore.datatypes.javax.enterprise.inject.spi.SpiPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.application.store"
+            class="ecore.datatypes.org.cocome.tradingsystem.inventory.application.store.StorePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.application.usermanager"
+            class="ecore.datatypes.org.cocome.tradingsystem.inventory.application.usermanager.UsermanagerPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.application.usermanager.credentials"
+            class="ecore.datatypes.org.cocome.tradingsystem.inventory.application.usermanager.credentials.CredentialsPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.data.enterprise"
+            class="ecore.datatypes.org.cocome.tradingsystem.inventory.data.enterprise.EnterprisePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.data.persistence"
+            class="ecore.datatypes.org.cocome.tradingsystem.inventory.data.persistence.PersistencePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.data.store"
+            class="ecore.datatypes.org.cocome.tradingsystem.inventory.data.store.StorePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.data.usermanager"
+            class="ecore.datatypes.org.cocome.tradingsystem.inventory.data.usermanager.UsermanagerPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.util.exception"
+            class="ecore.datatypes.org.cocome.tradingsystem.util.exception.ExceptionPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.util.scope"
+            class="ecore.datatypes.org.cocome.tradingsystem.util.scope.ScopePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.util.scope.context.NamedSessionContextHolder"
+            class="ecore.datatypes.org.cocome.tradingsystem.util.scope.context.NamedSessionContextHolder.NamedSessionContextHolderPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.data.enterprise"
+            class="ecore.org.cocome.tradingsystem.inventory.data.enterprise.EnterprisePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.data.persistence"
+            class="ecore.org.cocome.tradingsystem.inventory.data.persistence.PersistencePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.data.store"
+            class="ecore.org.cocome.tradingsystem.inventory.data.store.StorePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.data.usermanager"
+            class="ecore.org.cocome.tradingsystem.inventory.data.usermanager.UsermanagerPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.remote.access.connection"
+            class="ecore.org.cocome.tradingsystem.remote.access.connection.ConnectionPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.remote.access.parsing"
+            class="ecore.org.cocome.tradingsystem.remote.access.parsing.ParsingPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.util.java"
+            class="ecore.org.cocome.tradingsystem.util.java.JavaPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.util.scope"
+            class="ecore.org.cocome.tradingsystem.util.scope.ScopePackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated cloud-logic-core-impl -->
+      <package
+            uri="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.util.scope.context"
+            class="ecore.org.cocome.tradingsystem.util.scope.context.ContextPackage"/>
+   </extension>
+
+</plugin>

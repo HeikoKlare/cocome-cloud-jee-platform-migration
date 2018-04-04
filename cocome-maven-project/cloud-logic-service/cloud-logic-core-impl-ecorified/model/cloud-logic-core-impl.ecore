@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ecore" nsURI="cloud-logic-core-impl/ecore" nsPrefix="ecore">
+  <eClassifiers xsi:type="ecore:EClass" name="RootContainer">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="containedElements" upperBound="-1" containment="true">
+      <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eSubpackages name="datatypes" nsURI="cloud-logic-core-impl/ecore.datatypes" nsPrefix="datatypes">
+    <eClassifiers xsi:type="ecore:EDataType" name="longArray" instanceClassName="long[]"/>
+    <eSubpackages name="java" nsURI="cloud-logic-core-impl/ecore.datatypes.java" nsPrefix="java">
+      <eSubpackages name="io" nsURI="cloud-logic-core-impl/ecore.datatypes.java.io" nsPrefix="io">
+        <eClassifiers xsi:type="ecore:EDataType" name="IOException" instanceClassName="java.io.IOException"/>
+      </eSubpackages>
+      <eSubpackages name="lang" nsURI="cloud-logic-core-impl/ecore.datatypes.java.lang" nsPrefix="lang">
+        <eClassifiers xsi:type="ecore:EDataType" name="ThreadLocal" instanceClassName="java.lang.ThreadLocal">
+          <eTypeParameters name="T"/>
+        </eClassifiers>
+        <eSubpackages name="annotation" nsURI="cloud-logic-core-impl/ecore.datatypes.java.lang.annotation" nsPrefix="annotation">
+          <eClassifiers xsi:type="ecore:EDataType" name="Annotation" instanceClassName="java.lang.annotation.Annotation"/>
+        </eSubpackages>
+      </eSubpackages>
+      <eSubpackages name="util" nsURI="cloud-logic-core-impl/ecore.datatypes.java.util" nsPrefix="util">
+        <eClassifiers xsi:type="ecore:EDataType" name="Collection" instanceClassName="java.util.Collection">
+          <eTypeParameters name="E"/>
+        </eClassifiers>
+        <eClassifiers xsi:type="ecore:EDataType" name="Date" instanceClassName="java.util.Date"/>
+        <eClassifiers xsi:type="ecore:EDataType" name="HashMap" instanceClassName="java.util.HashMap">
+          <eTypeParameters name="K"/>
+          <eTypeParameters name="V"/>
+        </eClassifiers>
+        <eClassifiers xsi:type="ecore:EDataType" name="Iterator" instanceClassName="java.util.Iterator">
+          <eTypeParameters name="E"/>
+        </eClassifiers>
+        <eClassifiers xsi:type="ecore:EDataType" name="Map" instanceClassName="java.util.Map">
+          <eTypeParameters name="K"/>
+          <eTypeParameters name="V"/>
+        </eClassifiers>
+        <eClassifiers xsi:type="ecore:EDataType" name="Set" instanceClassName="java.util.Set">
+          <eTypeParameters name="E"/>
+        </eClassifiers>
+        <eSubpackages name="concurrent" nsURI="cloud-logic-core-impl/ecore.datatypes.java.util.concurrent" nsPrefix="concurrent">
+          <eClassifiers xsi:type="ecore:EDataType" name="TimeUnit" instanceClassName="java.util.concurrent.TimeUnit"/>
+        </eSubpackages>
+      </eSubpackages>
+    </eSubpackages>
+    <eSubpackages name="javax" nsURI="cloud-logic-core-impl/ecore.datatypes.javax" nsPrefix="javax">
+      <eSubpackages name="ejb" nsURI="cloud-logic-core-impl/ecore.datatypes.javax.ejb" nsPrefix="ejb">
+        <eClassifiers xsi:type="ecore:EDataType" name="CreateException" instanceClassName="javax.ejb.CreateException"/>
+      </eSubpackages>
+      <eSubpackages name="enterprise" nsURI="cloud-logic-core-impl/ecore.datatypes.javax.enterprise" nsPrefix="enterprise">
+        <eSubpackages name="context" nsURI="cloud-logic-core-impl/ecore.datatypes.javax.enterprise.context" nsPrefix="context">
+          <eClassifiers xsi:type="ecore:EDataType" name="ContextNotActiveException" instanceClassName="javax.enterprise.context.ContextNotActiveException"/>
+          <eSubpackages name="spi" nsURI="cloud-logic-core-impl/ecore.datatypes.javax.enterprise.context.spi" nsPrefix="spi">
+            <eClassifiers xsi:type="ecore:EDataType" name="Contextual" instanceClassName="javax.enterprise.context.spi.Contextual">
+              <eTypeParameters name="T"/>
+            </eClassifiers>
+            <eClassifiers xsi:type="ecore:EDataType" name="CreationalContext" instanceClassName="javax.enterprise.context.spi.CreationalContext">
+              <eTypeParameters name="T"/>
+            </eClassifiers>
+          </eSubpackages>
+        </eSubpackages>
+        <eSubpackages name="inject" nsURI="cloud-logic-core-impl/ecore.datatypes.javax.enterprise.inject" nsPrefix="inject">
+          <eClassifiers xsi:type="ecore:EDataType" name="Instance" instanceClassName="javax.enterprise.inject.Instance">
+            <eTypeParameters name="T"/>
+          </eClassifiers>
+          <eSubpackages name="spi" nsURI="cloud-logic-core-impl/ecore.datatypes.javax.enterprise.inject.spi" nsPrefix="spi">
+            <eClassifiers xsi:type="ecore:EDataType" name="AfterBeanDiscovery" instanceClassName="javax.enterprise.inject.spi.AfterBeanDiscovery"/>
+            <eClassifiers xsi:type="ecore:EDataType" name="BeanManager" instanceClassName="javax.enterprise.inject.spi.BeanManager"/>
+            <eClassifiers xsi:type="ecore:EDataType" name="BeforeBeanDiscovery" instanceClassName="javax.enterprise.inject.spi.BeforeBeanDiscovery"/>
+          </eSubpackages>
+        </eSubpackages>
+      </eSubpackages>
+    </eSubpackages>
+    <eSubpackages name="org" nsURI="cloud-logic-core-impl/ecore.datatypes.org" nsPrefix="org">
+      <eSubpackages name="cocome" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome" nsPrefix="cocome">
+        <eSubpackages name="tradingsystem" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem" nsPrefix="tradingsystem">
+          <eSubpackages name="inventory" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory" nsPrefix="inventory">
+            <eSubpackages name="application" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.application" nsPrefix="application">
+              <eSubpackages name="store" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.application.store" nsPrefix="store">
+                <eClassifiers xsi:type="ecore:EDataType" name="ComplexOrderEntryTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.ComplexOrderEntryTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="ComplexOrderTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.ComplexOrderTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="CustomerWithStoreTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.CustomerWithStoreTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="EnterpriseTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.EnterpriseTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="OrderEntryTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.OrderEntryTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="OrderTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.OrderTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="ProductTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.ProductTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="ProductWithStockItemTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.ProductWithStockItemTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="ProductWithSupplierAndStockItemTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.ProductWithSupplierAndStockItemTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="ProductWithSupplierTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.ProductWithSupplierTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="StockItemTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.StockItemTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="StoreTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.StoreTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="StoreWithEnterpriseTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.StoreWithEnterpriseTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="SupplierTO" instanceClassName="org.cocome.tradingsystem.inventory.application.store.SupplierTO"/>
+              </eSubpackages>
+              <eSubpackages name="usermanager" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.application.usermanager" nsPrefix="usermanager">
+                <eClassifiers xsi:type="ecore:EDataType" name="CredentialTO" instanceClassName="org.cocome.tradingsystem.inventory.application.usermanager.CredentialTO"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="CredentialType" instanceClassName="org.cocome.tradingsystem.inventory.application.usermanager.CredentialType"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="CredentialTypeNotFoundException" instanceClassName="org.cocome.tradingsystem.inventory.application.usermanager.CredentialTypeNotFoundException"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="Role" instanceClassName="org.cocome.tradingsystem.inventory.application.usermanager.Role"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="UserTO" instanceClassName="org.cocome.tradingsystem.inventory.application.usermanager.UserTO"/>
+                <eSubpackages name="credentials" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.application.usermanager.credentials" nsPrefix="credentials">
+                  <eClassifiers xsi:type="ecore:EDataType" name="ICredential" instanceClassName="org.cocome.tradingsystem.inventory.application.usermanager.credentials.ICredential"/>
+                </eSubpackages>
+              </eSubpackages>
+            </eSubpackages>
+            <eSubpackages name="data" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.data" nsPrefix="data">
+              <eSubpackages name="enterprise" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.data.enterprise" nsPrefix="enterprise">
+                <eClassifiers xsi:type="ecore:EDataType" name="IEnterpriseQuery" instanceClassName="org.cocome.tradingsystem.inventory.data.enterprise.IEnterpriseQuery"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="IProductSupplier" instanceClassName="org.cocome.tradingsystem.inventory.data.enterprise.IProductSupplier"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="ITradingEnterprise" instanceClassName="org.cocome.tradingsystem.inventory.data.enterprise.ITradingEnterprise"/>
+              </eSubpackages>
+              <eSubpackages name="persistence" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.data.persistence" nsPrefix="persistence">
+                <eClassifiers xsi:type="ecore:EDataType" name="UpdateException" instanceClassName="org.cocome.tradingsystem.inventory.data.persistence.UpdateException"/>
+              </eSubpackages>
+              <eSubpackages name="store" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.data.store" nsPrefix="store">
+                <eClassifiers xsi:type="ecore:EDataType" name="IOrderEntry" instanceClassName="org.cocome.tradingsystem.inventory.data.store.IOrderEntry"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="IProductOrder" instanceClassName="org.cocome.tradingsystem.inventory.data.store.IProductOrder"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="IStoreQuery" instanceClassName="org.cocome.tradingsystem.inventory.data.store.IStoreQuery"/>
+              </eSubpackages>
+              <eSubpackages name="usermanager" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.inventory.data.usermanager" nsPrefix="usermanager">
+                <eClassifiers xsi:type="ecore:EDataType" name="ICustomer" instanceClassName="org.cocome.tradingsystem.inventory.data.usermanager.ICustomer"/>
+                <eClassifiers xsi:type="ecore:EDataType" name="IUser" instanceClassName="org.cocome.tradingsystem.inventory.data.usermanager.IUser"/>
+              </eSubpackages>
+            </eSubpackages>
+          </eSubpackages>
+          <eSubpackages name="util" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.util" nsPrefix="util">
+            <eSubpackages name="exception" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.util.exception" nsPrefix="exception">
+              <eClassifiers xsi:type="ecore:EDataType" name="NotInDatabaseException" instanceClassName="org.cocome.tradingsystem.util.exception.NotInDatabaseException"/>
+            </eSubpackages>
+            <eSubpackages name="scope" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.util.scope" nsPrefix="scope">
+              <eClassifiers xsi:type="ecore:EDataType" name="IContextRegistry" instanceClassName="org.cocome.tradingsystem.util.scope.IContextRegistry"/>
+              <eClassifiers xsi:type="ecore:EDataType" name="RegistryKeys" instanceClassName="org.cocome.tradingsystem.util.scope.RegistryKeys"/>
+              <eSubpackages name="context" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.util.scope.context" nsPrefix="context">
+                <eSubpackages name="NamedSessionContextHolder" nsURI="cloud-logic-core-impl/ecore.datatypes.org.cocome.tradingsystem.util.scope.context.NamedSessionContextHolder" nsPrefix="NamedSessionContextHolder">
+                  <eClassifiers xsi:type="ecore:EDataType" name="NamedSessionInstance" instanceClassName="org.cocome.tradingsystem.util.scope.context.NamedSessionContextHolder.NamedSessionInstance">
+                    <eTypeParameters name="T"/>
+                  </eClassifiers>
+                </eSubpackages>
+              </eSubpackages>
+            </eSubpackages>
+          </eSubpackages>
+        </eSubpackages>
+      </eSubpackages>
+    </eSubpackages>
+  </eSubpackages>
+  <eSubpackages name="org" nsURI="cloud-logic-core-impl/ecore.org" nsPrefix="org">
+    <eSubpackages name="cocome" nsURI="cloud-logic-core-impl/ecore.org.cocome" nsPrefix="cocome">
+      <eSubpackages name="tradingsystem" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem" nsPrefix="tradingsystem">
+        <eSubpackages name="inventory" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory" nsPrefix="inventory">
+          <eSubpackages name="application" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.application" nsPrefix="application">
+            <eSubpackages name="usermanager" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.application.usermanager" nsPrefix="usermanager">
+              <eSubpackages name="credentials" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.application.usermanager.credentials" nsPrefix="credentials"/>
+            </eSubpackages>
+          </eSubpackages>
+          <eSubpackages name="data" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.data" nsPrefix="data">
+            <eSubpackages name="enterprise" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.data.enterprise" nsPrefix="enterprise">
+              <eClassifiers xsi:type="ecore:EClass" name="EnterpriseDatatypesFactory">
+                <eOperations name="getNewProduct" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                <eOperations name="getNewProductSupplier" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IProductSupplier"/>
+                <eOperations name="getNewTradingEnterprise" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/ITradingEnterprise"/>
+                <eOperations name="convertToProduct" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct">
+                  <eParameters name="productTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/ProductTO"/>
+                </eOperations>
+                <eOperations name="fillProductTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/ProductTO">
+                  <eParameters name="product" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                </eOperations>
+                <eOperations name="convertToEnterprise" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/ITradingEnterprise">
+                  <eParameters name="enterpriseTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/EnterpriseTO"/>
+                </eOperations>
+                <eOperations name="fillEnterpriseTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/EnterpriseTO">
+                  <eParameters name="enterprise" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/ITradingEnterprise"/>
+                </eOperations>
+                <eOperations name="convertToSupplier" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IProductSupplier">
+                  <eParameters name="supplierTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/SupplierTO"/>
+                </eOperations>
+                <eOperations name="fillSupplierTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/SupplierTO">
+                  <eParameters name="supplier" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IProductSupplier"/>
+                </eOperations>
+                <eOperations name="fillProductWithSupplierTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/ProductWithSupplierTO" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="product" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                </eOperations>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="Product" eSuperTypes="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct">
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="barcode">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="purchasePrice">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="supplier" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IProductSupplier"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="enterpriseQuery" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IEnterpriseQuery"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="registry">
+                  <eGenericType eClassifier="//datatypes/javax/enterprise/inject/Instance">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="ProductSupplier">
+                <eOperations name="initProductSupplier"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="products">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="enterpriseQuery" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IEnterpriseQuery"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="registry">
+                  <eGenericType eClassifier="//datatypes/javax/enterprise/inject/Instance">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="TradingEnterprise">
+                <eOperations name="initTradingEnterprise"/>
+                <eOperations name="toString">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eOperations>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="suppliers">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IProductSupplier"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="stores">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="enterpriseQuery" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IEnterpriseQuery"/>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="IProduct" abstract="true" interface="true"/>
+            </eSubpackages>
+            <eSubpackages name="persistence" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.data.persistence" nsPrefix="persistence">
+              <eClassifiers xsi:type="ecore:EClass" name="CloudPersistenceContext">
+                <eOperations name="updateEntity" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException">
+                  <eParameters name="productOrder" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                </eOperations>
+                <eOperations name="createEntity" eExceptions="//datatypes/javax/ejb/CreateException">
+                  <eParameters name="stockItem" eType="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                </eOperations>
+                <eOperations name="updateEntity" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException">
+                  <eParameters name="stockItem" eType="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                </eOperations>
+                <eOperations name="createEntity" eExceptions="//datatypes/javax/ejb/CreateException">
+                  <eParameters name="enterprise" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/ITradingEnterprise"/>
+                </eOperations>
+                <eOperations name="createEntity" eExceptions="//datatypes/javax/ejb/CreateException">
+                  <eParameters name="productOrder" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                </eOperations>
+                <eOperations name="updateEntity" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException">
+                  <eParameters name="enterprise" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/ITradingEnterprise"/>
+                </eOperations>
+                <eOperations name="createEntity" eExceptions="//datatypes/javax/ejb/CreateException">
+                  <eParameters name="store" eType="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                </eOperations>
+                <eOperations name="updateEntity" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException">
+                  <eParameters name="store" eType="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                </eOperations>
+                <eOperations name="createEntity" eExceptions="//datatypes/javax/ejb/CreateException">
+                  <eParameters name="supplier" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IProductSupplier"/>
+                </eOperations>
+                <eOperations name="updateEntity" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException">
+                  <eParameters name="supplier" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IProductSupplier"/>
+                </eOperations>
+                <eOperations name="createEntity" eExceptions="//datatypes/javax/ejb/CreateException">
+                  <eParameters name="product" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                </eOperations>
+                <eOperations name="updateEntity" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException">
+                  <eParameters name="product" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                </eOperations>
+                <eOperations name="createEntity" eExceptions="//datatypes/javax/ejb/CreateException">
+                  <eParameters name="entity">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="updateEntity" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException">
+                  <eParameters name="entity">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="createEntity" eExceptions="//datatypes/javax/ejb/CreateException">
+                  <eParameters name="user" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/IUser"/>
+                </eOperations>
+                <eOperations name="updateEntity" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException">
+                  <eParameters name="user" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/IUser"/>
+                </eOperations>
+                <eOperations name="createEntity" eExceptions="//datatypes/javax/ejb/CreateException">
+                  <eParameters name="customer" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/ICustomer"/>
+                </eOperations>
+                <eOperations name="updateEntity" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/data/persistence/UpdateException">
+                  <eParameters name="customer" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/ICustomer"/>
+                </eOperations>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="ServiceAdapterEntityConverter"/>
+              <eClassifiers xsi:type="ecore:EClass" name="ServiceAdapterHeaders"/>
+            </eSubpackages>
+            <eSubpackages name="store" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.data.store" nsPrefix="store">
+              <eClassifiers xsi:type="ecore:EClass" name="EnterpriseStoreQueryProvider">
+                <eOperations name="queryStore" eType="//org/cocome/tradingsystem/inventory/data/store/IStore">
+                  <eParameters name="name">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                  <eParameters name="location">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryStoreById" eType="//org/cocome/tradingsystem/inventory/data/store/IStore" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="storeId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryStockItemById" eType="//org/cocome/tradingsystem/inventory/data/store/IStockItem" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="stockItemId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryProductById" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="productId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryProductByBarcode" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct">
+                  <eParameters name="barcode">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryOrderById" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="orderId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryProducts">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                  </eGenericType>
+                  <eParameters name="storeId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryOutstandingOrders">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                  </eGenericType>
+                  <eParameters name="storeId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryAllStockItems">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                  </eGenericType>
+                  <eParameters name="storeId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryLowStockItems">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                  </eGenericType>
+                  <eParameters name="storeId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryStockItem" eType="//org/cocome/tradingsystem/inventory/data/store/IStockItem">
+                  <eParameters name="storeId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                  <eParameters name="productBarcode">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryStockItemsByProductId">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                  </eGenericType>
+                  <eParameters name="storeId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                  <eParameters name="productIds" eType="//datatypes/longArray"/>
+                </eOperations>
+                <eOperations name="queryProductOrder" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="storeId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                  <eParameters name="productBarcode">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                  <eParameters name="amount">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="queryAllOrders">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                  </eGenericType>
+                  <eParameters name="storeId">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                  </eParameters>
+                </eOperations>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="OrderEntry">
+                <eOperations name="initOrderEntry"/>
+                <eOperations name="toString">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eOperations>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="amount">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="productBarcode">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EReference" name="product" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="storeQuery" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IStoreQuery"/>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="ProductOrder">
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="deliveryDate" eType="//datatypes/java/util/Date"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="orderingDate" eType="//datatypes/java/util/Date"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="orderEntries">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/store/IOrderEntry"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="storeName">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="storeLocation">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EReference" name="store" eType="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="storeQuery" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IStoreQuery"/>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="StockItem" eSuperTypes="//org/cocome/tradingsystem/inventory/data/store/IStockItem">
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="salesPrice">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="amount">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="minStock">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxStock">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="incomingAmount">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="storeName">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="storeLocation">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="productBarcode">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EReference" name="store" eType="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                <eStructuralFeatures xsi:type="ecore:EReference" name="product" eType="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="storeQuery" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IStoreQuery"/>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="Store" eSuperTypes="//org/cocome/tradingsystem/inventory/data/store/IStore">
+                <eOperations name="initStore"/>
+                <eOperations name="toString">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eOperations>
+                <eOperations name="compareTo">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+                  <eParameters name="o" eType="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                </eOperations>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="name">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="location">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="enterpriseName">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="enterprise" eType="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/ITradingEnterprise"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="productOrders">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="stockItems">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="StoreDatatypesFactory">
+                <eOperations name="getNewOrderEntry" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IOrderEntry"/>
+                <eOperations name="getNewProductOrder" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                <eOperations name="getNewStockItem" eType="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                <eOperations name="getNewStore" eType="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                <eOperations name="convertToOrderEntry" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IOrderEntry">
+                  <eParameters name="entryTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/ComplexOrderEntryTO"/>
+                </eOperations>
+                <eOperations name="fillComplexOrderEntryTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/ComplexOrderEntryTO" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="entry" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IOrderEntry"/>
+                </eOperations>
+                <eOperations name="convertToProductOrder" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder">
+                  <eParameters name="orderTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/ComplexOrderTO"/>
+                </eOperations>
+                <eOperations name="fillComplexOrderTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/ComplexOrderTO" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="order" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                </eOperations>
+                <eOperations name="convertToStockItem" eType="//org/cocome/tradingsystem/inventory/data/store/IStockItem">
+                  <eParameters name="stockItemTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/StockItemTO"/>
+                </eOperations>
+                <eOperations name="fillStockItemTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/StockItemTO">
+                  <eParameters name="stockItem" eType="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                </eOperations>
+                <eOperations name="convertToStore" eType="//org/cocome/tradingsystem/inventory/data/store/IStore">
+                  <eParameters name="storeTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/StoreTO"/>
+                </eOperations>
+                <eOperations name="fillStoreTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/StoreTO">
+                  <eParameters name="store" eType="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                </eOperations>
+                <eOperations name="fillOrderEntryTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/OrderEntryTO">
+                  <eParameters name="entry" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IOrderEntry"/>
+                </eOperations>
+                <eOperations name="fillOrderTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/OrderTO">
+                  <eParameters name="order" eType="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                </eOperations>
+                <eOperations name="fillProductWithStockItemTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/ProductWithStockItemTO">
+                  <eParameters name="stockItem" eType="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                </eOperations>
+                <eOperations name="fillProductWithSupplierAndStockItemTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/ProductWithSupplierAndStockItemTO" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="stockItem" eType="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                </eOperations>
+                <eOperations name="fillStoreWithEnterpriseTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/StoreWithEnterpriseTO" eExceptions="//datatypes/org/cocome/tradingsystem/util/exception/NotInDatabaseException">
+                  <eParameters name="store" eType="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                </eOperations>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="IStockItem" abstract="true" interface="true"/>
+              <eClassifiers xsi:type="ecore:EClass" name="IStore" abstract="true" interface="true"/>
+            </eSubpackages>
+            <eSubpackages name="usermanager" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.inventory.data.usermanager" nsPrefix="usermanager">
+              <eClassifiers xsi:type="ecore:EClass" name="Customer">
+                <eOperations name="getCreditCardInfo">
+                  <eGenericType eClassifier="//datatypes/java/util/Set">
+                    <eTypeArguments>
+                      <eClassifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                    </eTypeArguments>
+                  </eGenericType>
+                </eOperations>
+                <eOperations name="setCreditCardInfo">
+                  <eParameters name="creditCardInfo">
+                    <eGenericType eClassifier="//datatypes/java/util/Set">
+                      <eTypeArguments>
+                        <eClassifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                      </eTypeArguments>
+                    </eGenericType>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="addCreditCardInfo">
+                  <eParameters name="creditCardInfo">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="removeCreditCardInfo">
+                  <eParameters name="creditCardInfo">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="id">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="firstName">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="lastName">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="mailAddress">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="creditCardInfoSet">
+                  <eGenericType eClassifier="//datatypes/java/util/Set">
+                    <eTypeArguments>
+                      <eClassifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                    </eTypeArguments>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EReference" name="preferredStore" eType="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="user" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/IUser"/>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="User">
+                <eOperations name="initUser"/>
+                <eOperations name="initUser">
+                  <eParameters name="userTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/UserTO"/>
+                </eOperations>
+                <eOperations name="addCredential">
+                  <eParameters name="credential" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/credentials/ICredential"/>
+                </eOperations>
+                <eOperations name="removeCredential">
+                  <eParameters name="credentialType" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/CredentialType"/>
+                </eOperations>
+                <eOperations name="checkCredential">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+                  <eParameters name="credential" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/credentials/ICredential"/>
+                </eOperations>
+                <eOperations name="checkUserCredentials">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+                  <eParameters name="userToCheck" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/IUser"/>
+                </eOperations>
+                <eOperations name="hasRole">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+                  <eParameters name="role" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/Role"/>
+                </eOperations>
+                <eOperations name="addRole">
+                  <eParameters name="role" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/Role"/>
+                </eOperations>
+                <eOperations name="withdrawRole">
+                  <eParameters name="role" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/Role"/>
+                </eOperations>
+                <eOperations name="resetCredential" eExceptions="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/CredentialTypeNotFoundException">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="credentialType" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/CredentialType"/>
+                </eOperations>
+                <eOperations name="getCredential" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/credentials/ICredential">
+                  <eParameters name="credentialType" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/CredentialType"/>
+                </eOperations>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="username">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="credentials">
+                  <eGenericType eClassifier="//datatypes/java/util/Map">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/CredentialType"/>
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/credentials/ICredential"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="roles">
+                  <eGenericType eClassifier="//datatypes/java/util/Set">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/Role"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="UsermanagerDatatypesFactory">
+                <eOperations name="getNewUser" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/IUser"/>
+                <eOperations name="fillCustomerWithStoreTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/store/CustomerWithStoreTO">
+                  <eParameters name="customer" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/ICustomer"/>
+                </eOperations>
+                <eOperations name="fillCredentialTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/CredentialTO">
+                  <eParameters name="credential" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/credentials/ICredential"/>
+                </eOperations>
+                <eOperations name="fillUserTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/UserTO">
+                  <eParameters name="user" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/IUser"/>
+                </eOperations>
+                <eOperations name="convertToUser" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/IUser">
+                  <eParameters name="userTO" eType="//datatypes/org/cocome/tradingsystem/inventory/application/usermanager/UserTO"/>
+                </eOperations>
+                <eOperations name="getNewCustomer" eType="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/ICustomer"/>
+              </eClassifiers>
+            </eSubpackages>
+          </eSubpackages>
+        </eSubpackages>
+        <eSubpackages name="remote" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.remote" nsPrefix="remote">
+          <eSubpackages name="access" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.remote.access" nsPrefix="access">
+            <eSubpackages name="connection" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.remote.access.connection" nsPrefix="connection">
+              <eClassifiers xsi:type="ecore:EClass" name="CSVBackendConnection">
+                <eOperations name="sendUpdateQuery" eExceptions="//datatypes/java/io/IOException">
+                  <eParameters name="entity">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                  <eParameters name="header">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                  <eParameters name="content">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="sendCreateQuery" eExceptions="//datatypes/java/io/IOException">
+                  <eParameters name="entity">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                  <eParameters name="header">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                  <eParameters name="content">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getResponse">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eOperations>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="backendHost">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="backendPort">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="backendSetDataURL">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="message">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="GetXMLFromBackend">
+                <eOperations name="getXMLFromBackend">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="urlString">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getProducts">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="cond">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getEnterprises">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="cond">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getStores">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="cond">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getStockItems">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="cond">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getProductOrder">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="cond">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getProductSupplier">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="cond">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getEntity">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="entity">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                  <eParameters name="cond">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getUser">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="cond">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getCustomer">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  <eParameters name="cond">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="backendHost">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="backendPort">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="backendGetDataURL">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="message">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="QueryParameterEncoder"/>
+            </eSubpackages>
+            <eSubpackages name="parsing" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.remote.access.parsing" nsPrefix="parsing">
+              <eClassifiers xsi:type="ecore:EClass" name="CSVHelper">
+                <eOperations name="getStores">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/store/IStore"/>
+                  </eGenericType>
+                  <eParameters name="input">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getCustomers">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/ICustomer"/>
+                  </eGenericType>
+                  <eParameters name="input">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getUsers">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/usermanager/IUser"/>
+                  </eGenericType>
+                  <eParameters name="input">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getEnterprises">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/ITradingEnterprise"/>
+                  </eGenericType>
+                  <eParameters name="input">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getStockItems">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/store/IStockItem"/>
+                  </eGenericType>
+                  <eParameters name="input">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getProducts">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/inventory/data/enterprise/IProduct"/>
+                  </eGenericType>
+                  <eParameters name="input">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getProductSuppliers">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/enterprise/IProductSupplier"/>
+                  </eGenericType>
+                  <eParameters name="input">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="getProductOrders">
+                  <eGenericType eClassifier="//datatypes/java/util/Collection">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/inventory/data/store/IProductOrder"/>
+                  </eGenericType>
+                  <eParameters name="input">
+                    <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                  </eParameters>
+                </eOperations>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="MessageToCSV">
+                <eOperations name="getCSV">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eOperations>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="message">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="ParserPostMessage">
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="response">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="message">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="time">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="lebel">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="status">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="description">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+              </eClassifiers>
+            </eSubpackages>
+          </eSubpackages>
+        </eSubpackages>
+        <eSubpackages name="util" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.util" nsPrefix="util">
+          <eSubpackages name="java" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.util.java" nsPrefix="java">
+            <eClassifiers xsi:type="ecore:EClass" name="Assert"/>
+            <eClassifiers xsi:type="ecore:EClass" name="DualElement">
+              <eTypeParameters name="T"/>
+              <eTypeParameters name="E"/>
+              <eOperations name="getFirstElement">
+                <eGenericType eTypeParameter="//org/cocome/tradingsystem/util/java/DualElement/T"/>
+              </eOperations>
+              <eOperations name="getSecondElement">
+                <eGenericType eTypeParameter="//org/cocome/tradingsystem/util/java/DualElement/E"/>
+              </eOperations>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="elem1">
+                <eGenericType eTypeParameter="//org/cocome/tradingsystem/util/java/DualElement/T"/>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="elem2">
+                <eGenericType eTypeParameter="//org/cocome/tradingsystem/util/java/DualElement/E"/>
+              </eStructuralFeatures>
+            </eClassifiers>
+            <eClassifiers xsi:type="ecore:EClass" name="DualIterator">
+              <eTypeParameters name="T"/>
+              <eTypeParameters name="E"/>
+              <eOperations name="iterator">
+                <eGenericType eClassifier="//datatypes/java/util/Iterator">
+                  <eTypeArguments eClassifier="//org/cocome/tradingsystem/util/java/DualElement">
+                    <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/java/DualIterator/T"/>
+                    <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/java/DualIterator/E"/>
+                  </eTypeArguments>
+                </eGenericType>
+              </eOperations>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="coll1">
+                <eGenericType eClassifier="//datatypes/java/util/Collection">
+                  <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/java/DualIterator/T"/>
+                </eGenericType>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="coll2">
+                <eGenericType eClassifier="//datatypes/java/util/Collection">
+                  <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/java/DualIterator/E"/>
+                </eGenericType>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="iterator1">
+                <eGenericType eClassifier="//datatypes/java/util/Iterator">
+                  <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/java/DualIterator/T"/>
+                </eGenericType>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="iterator2">
+                <eGenericType eClassifier="//datatypes/java/util/Iterator">
+                  <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/java/DualIterator/E"/>
+                </eGenericType>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="currElement1">
+                <eGenericType eTypeParameter="//org/cocome/tradingsystem/util/java/DualIterator/T"/>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="currElement2">
+                <eGenericType eTypeParameter="//org/cocome/tradingsystem/util/java/DualIterator/E"/>
+              </eStructuralFeatures>
+            </eClassifiers>
+            <eClassifiers xsi:type="ecore:EClass" name="Iterables"/>
+            <eClassifiers xsi:type="ecore:EClass" name="Lists"/>
+            <eClassifiers xsi:type="ecore:EClass" name="Maps"/>
+            <eClassifiers xsi:type="ecore:EClass" name="Reflection"/>
+            <eClassifiers xsi:type="ecore:EClass" name="Sets"/>
+            <eClassifiers xsi:type="ecore:EClass" name="Swing"/>
+            <eClassifiers xsi:type="ecore:EClass" name="TimeSpan">
+              <eOperations name="getDuration">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                <eParameters name="unit" eType="//datatypes/java/util/concurrent/TimeUnit"/>
+              </eOperations>
+              <eOperations name="equals">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+                <eParameters name="object">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eParameters>
+              </eOperations>
+              <eOperations name="hashCode">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+              </eOperations>
+              <eOperations name="compareTo">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+                <eParameters name="that" eType="//org/cocome/tradingsystem/util/java/TimeSpan"/>
+              </eOperations>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="__value">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="__unit" eType="//datatypes/java/util/concurrent/TimeUnit"/>
+            </eClassifiers>
+          </eSubpackages>
+          <eSubpackages name="scope" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.util.scope" nsPrefix="scope">
+            <eClassifiers xsi:type="ecore:EClass" name="CashDeskRegistry">
+              <eOperations name="getLong">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                <eParameters name="name" eType="//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+              </eOperations>
+              <eOperations name="putLong">
+                <eParameters name="name" eType="//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+                <eParameters name="value">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+                </eParameters>
+              </eOperations>
+              <eOperations name="getString">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                <eParameters name="name" eType="//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+              </eOperations>
+              <eOperations name="putString">
+                <eParameters name="name" eType="//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+                <eParameters name="value">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eParameters>
+              </eOperations>
+              <eOperations name="getObject">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                <eParameters name="name" eType="//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+              </eOperations>
+              <eOperations name="putObject">
+                <eParameters name="name" eType="//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+                <eParameters name="value">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                </eParameters>
+              </eOperations>
+              <eOperations name="hasObject">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+                <eParameters name="name" eType="//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+              </eOperations>
+              <eOperations name="hasLong">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+                <eParameters name="name" eType="//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+              </eOperations>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="attributeMap">
+                <eGenericType eClassifier="//datatypes/java/util/HashMap">
+                  <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/util/scope/RegistryKeys"/>
+                  <eTypeArguments>
+                    <eClassifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+                  </eTypeArguments>
+                </eGenericType>
+              </eStructuralFeatures>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="contextName">
+                <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+              </eStructuralFeatures>
+            </eClassifiers>
+            <eClassifiers xsi:type="ecore:EClass" name="CashDeskRegistryFactory">
+              <eOperations name="getCashDeskContextRegistry" eType="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry" eExceptions="//datatypes/javax/enterprise/context/ContextNotActiveException"/>
+              <eOperations name="getStoreContextRegistry" eType="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry" eExceptions="//datatypes/javax/enterprise/context/ContextNotActiveException"/>
+              <eOperations name="getEnterpriseContextRegistry" eType="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry" eExceptions="//datatypes/javax/enterprise/context/ContextNotActiveException"/>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="manager" eType="//datatypes/javax/enterprise/inject/spi/BeanManager"/>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="storeContext" eType="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry"/>
+              <eStructuralFeatures xsi:type="ecore:EAttribute" name="enterpriseContext" eType="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry"/>
+            </eClassifiers>
+            <eClassifiers xsi:type="ecore:EClass" name="CashDeskSessionScopeExtension">
+              <eOperations name="addScope">
+                <eParameters name="event" eType="//datatypes/javax/enterprise/inject/spi/BeforeBeanDiscovery"/>
+              </eOperations>
+              <eOperations name="registerContext">
+                <eParameters name="event" eType="//datatypes/javax/enterprise/inject/spi/AfterBeanDiscovery"/>
+                <eParameters name="manager" eType="//datatypes/javax/enterprise/inject/spi/BeanManager"/>
+              </eOperations>
+            </eClassifiers>
+            <eSubpackages name="context" nsURI="cloud-logic-core-impl/ecore.org.cocome.tradingsystem.util.scope.context" nsPrefix="context">
+              <eClassifiers xsi:type="ecore:EClass" name="NamedSessionContext">
+                <eOperations name="getScope">
+                  <eGenericType>
+                    <eTypeArguments>
+                      <eUpperBound eClassifier="//datatypes/java/lang/annotation/Annotation"/>
+                    </eTypeArguments>
+                    <eClassifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaClass"/>
+                  </eGenericType>
+                </eOperations>
+                <eOperations name="get">
+                  <eGenericType eTypeParameter="//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get/T"/>
+                  <eTypeParameters name="T"/>
+                  <eParameters name="contextual">
+                    <eGenericType eClassifier="//datatypes/javax/enterprise/context/spi/Contextual">
+                      <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get/T"/>
+                    </eGenericType>
+                  </eParameters>
+                  <eParameters name="creationalContext">
+                    <eGenericType eClassifier="//datatypes/javax/enterprise/context/spi/CreationalContext">
+                      <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get/T"/>
+                    </eGenericType>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="get">
+                  <eGenericType eTypeParameter="//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get.1/T"/>
+                  <eTypeParameters name="T"/>
+                  <eParameters name="contextual">
+                    <eGenericType eClassifier="//datatypes/javax/enterprise/context/spi/Contextual">
+                      <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/scope/context/NamedSessionContext/get.1/T"/>
+                    </eGenericType>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="isActive">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+                </eOperations>
+                <eOperations name="activate">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+                  <eParameters name="context" eType="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry"/>
+                </eOperations>
+                <eOperations name="deactivateCurrentContext"/>
+                <eOperations name="getName">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eOperations>
+                <eOperations name="deleteCurrentContext"/>
+                <eOperations name="getActiveContext" eType="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="isActive">
+                  <eGenericType eClassifier="//datatypes/java/lang/ThreadLocal">
+                    <eTypeArguments>
+                      <eClassifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBooleanObject"/>
+                    </eTypeArguments>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="providedScope">
+                  <eGenericType eClassifier="//datatypes/java/lang/ThreadLocal">
+                    <eTypeArguments>
+                      <eTypeArguments>
+                        <eUpperBound eClassifier="//datatypes/java/lang/annotation/Annotation"/>
+                      </eTypeArguments>
+                      <eClassifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaClass"/>
+                    </eTypeArguments>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="context">
+                  <eGenericType eClassifier="//datatypes/java/lang/ThreadLocal">
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/util/scope/IContextRegistry"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="contextHolder">
+                  <eGenericType eClassifier="//datatypes/java/lang/ThreadLocal">
+                    <eTypeArguments eClassifier="//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder"/>
+                  </eGenericType>
+                </eStructuralFeatures>
+              </eClassifiers>
+              <eClassifiers xsi:type="ecore:EClass" name="NamedSessionContextHolder">
+                <eOperations name="getBean">
+                  <eGenericType eClassifier="//datatypes/org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/NamedSessionInstance">
+                    <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/getBean/T"/>
+                  </eGenericType>
+                  <eTypeParameters name="T"/>
+                  <eParameters name="type">
+                    <eGenericType>
+                      <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/getBean/T"/>
+                      <eClassifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaClass"/>
+                    </eGenericType>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="putBean">
+                  <eTypeParameters name="T"/>
+                  <eParameters name="cashDeskInstance">
+                    <eGenericType eClassifier="//datatypes/org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/NamedSessionInstance">
+                      <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/putBean/T"/>
+                    </eGenericType>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="destroyBean">
+                  <eTypeParameters name="T"/>
+                  <eParameters name="cashDeskInstance">
+                    <eGenericType eClassifier="//datatypes/org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/NamedSessionInstance">
+                      <eTypeArguments eTypeParameter="//org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/destroyBean/T"/>
+                    </eGenericType>
+                  </eParameters>
+                </eOperations>
+                <eOperations name="destroyAllBeans"/>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="beans">
+                  <eGenericType eClassifier="//datatypes/java/util/Map">
+                    <eTypeArguments>
+                      <eTypeArguments/>
+                      <eClassifier xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaClass"/>
+                    </eTypeArguments>
+                    <eTypeArguments eClassifier="//datatypes/org/cocome/tradingsystem/util/scope/context/NamedSessionContextHolder/NamedSessionInstance">
+                      <eTypeArguments/>
+                    </eTypeArguments>
+                  </eGenericType>
+                </eStructuralFeatures>
+                <eStructuralFeatures xsi:type="ecore:EAttribute" name="contextName">
+                  <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+                </eStructuralFeatures>
+              </eClassifiers>
+            </eSubpackages>
+          </eSubpackages>
+        </eSubpackages>
+      </eSubpackages>
+    </eSubpackages>
+  </eSubpackages>
+</ecore:EPackage>

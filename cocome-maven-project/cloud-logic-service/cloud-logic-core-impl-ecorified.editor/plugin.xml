@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.presentation.EcoreModelWizardID"
+            name="%_UI_EcoreModelWizard_label"
+            class="ecore.presentation.EcoreModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/EcoreModelFile.gif">
+         <description>%_UI_EcoreModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.presentation.EcoreEditorID"
+            name="%_UI_EcoreEditor_label"
+            icon="icons/full/obj16/EcoreModelFile.gif"
+            extensions="cocome"
+            class="ecore.presentation.EcoreEditor"
+            contributorClass="ecore.presentation.EcoreActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.org.cocome.tradingsystem.inventory.data.enterprise.presentation.EnterpriseModelWizardID"
+            name="%_UI_EnterpriseModelWizard_label"
+            class="ecore.org.cocome.tradingsystem.inventory.data.enterprise.presentation.EnterpriseModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/EnterpriseModelFile.gif">
+         <description>%_UI_EnterpriseModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.org.cocome.tradingsystem.inventory.data.enterprise.presentation.EnterpriseEditorID"
+            name="%_UI_EnterpriseEditor_label"
+            icon="icons/full/obj16/EnterpriseModelFile.gif"
+            extensions="enterprise"
+            class="ecore.org.cocome.tradingsystem.inventory.data.enterprise.presentation.EnterpriseEditor"
+            contributorClass="ecore.org.cocome.tradingsystem.inventory.data.enterprise.presentation.EnterpriseActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.org.cocome.tradingsystem.inventory.data.persistence.presentation.PersistenceModelWizardID"
+            name="%_UI_PersistenceModelWizard_label"
+            class="ecore.org.cocome.tradingsystem.inventory.data.persistence.presentation.PersistenceModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/PersistenceModelFile.gif">
+         <description>%_UI_PersistenceModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.org.cocome.tradingsystem.inventory.data.persistence.presentation.PersistenceEditorID"
+            name="%_UI_PersistenceEditor_label"
+            icon="icons/full/obj16/PersistenceModelFile.gif"
+            extensions="persistence"
+            class="ecore.org.cocome.tradingsystem.inventory.data.persistence.presentation.PersistenceEditor"
+            contributorClass="ecore.org.cocome.tradingsystem.inventory.data.persistence.presentation.PersistenceActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.org.cocome.tradingsystem.inventory.data.store.presentation.StoreModelWizardID"
+            name="%_UI_StoreModelWizard_label"
+            class="ecore.org.cocome.tradingsystem.inventory.data.store.presentation.StoreModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/StoreModelFile.gif">
+         <description>%_UI_StoreModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.org.cocome.tradingsystem.inventory.data.store.presentation.StoreEditorID"
+            name="%_UI_StoreEditor_label"
+            icon="icons/full/obj16/StoreModelFile.gif"
+            extensions="store"
+            class="ecore.org.cocome.tradingsystem.inventory.data.store.presentation.StoreEditor"
+            contributorClass="ecore.org.cocome.tradingsystem.inventory.data.store.presentation.StoreActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.org.cocome.tradingsystem.inventory.data.usermanager.presentation.UsermanagerModelWizardID"
+            name="%_UI_UsermanagerModelWizard_label"
+            class="ecore.org.cocome.tradingsystem.inventory.data.usermanager.presentation.UsermanagerModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/UsermanagerModelFile.gif">
+         <description>%_UI_UsermanagerModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.org.cocome.tradingsystem.inventory.data.usermanager.presentation.UsermanagerEditorID"
+            name="%_UI_UsermanagerEditor_label"
+            icon="icons/full/obj16/UsermanagerModelFile.gif"
+            extensions="usermanager"
+            class="ecore.org.cocome.tradingsystem.inventory.data.usermanager.presentation.UsermanagerEditor"
+            contributorClass="ecore.org.cocome.tradingsystem.inventory.data.usermanager.presentation.UsermanagerActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.org.cocome.tradingsystem.remote.access.connection.presentation.ConnectionModelWizardID"
+            name="%_UI_ConnectionModelWizard_label"
+            class="ecore.org.cocome.tradingsystem.remote.access.connection.presentation.ConnectionModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ConnectionModelFile.gif">
+         <description>%_UI_ConnectionModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.org.cocome.tradingsystem.remote.access.connection.presentation.ConnectionEditorID"
+            name="%_UI_ConnectionEditor_label"
+            icon="icons/full/obj16/ConnectionModelFile.gif"
+            extensions="connection"
+            class="ecore.org.cocome.tradingsystem.remote.access.connection.presentation.ConnectionEditor"
+            contributorClass="ecore.org.cocome.tradingsystem.remote.access.connection.presentation.ConnectionActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.org.cocome.tradingsystem.remote.access.parsing.presentation.ParsingModelWizardID"
+            name="%_UI_ParsingModelWizard_label"
+            class="ecore.org.cocome.tradingsystem.remote.access.parsing.presentation.ParsingModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ParsingModelFile.gif">
+         <description>%_UI_ParsingModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.org.cocome.tradingsystem.remote.access.parsing.presentation.ParsingEditorID"
+            name="%_UI_ParsingEditor_label"
+            icon="icons/full/obj16/ParsingModelFile.gif"
+            extensions="parsing"
+            class="ecore.org.cocome.tradingsystem.remote.access.parsing.presentation.ParsingEditor"
+            contributorClass="ecore.org.cocome.tradingsystem.remote.access.parsing.presentation.ParsingActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.org.cocome.tradingsystem.util.java.presentation.JavaModelWizardID"
+            name="%_UI_JavaModelWizard_label"
+            class="ecore.org.cocome.tradingsystem.util.java.presentation.JavaModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/JavaModelFile.gif">
+         <description>%_UI_JavaModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.org.cocome.tradingsystem.util.java.presentation.JavaEditorID"
+            name="%_UI_JavaEditor_label"
+            icon="icons/full/obj16/JavaModelFile.gif"
+            extensions="java"
+            class="ecore.org.cocome.tradingsystem.util.java.presentation.JavaEditor"
+            contributorClass="ecore.org.cocome.tradingsystem.util.java.presentation.JavaActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.org.cocome.tradingsystem.util.scope.presentation.ScopeModelWizardID"
+            name="%_UI_ScopeModelWizard_label"
+            class="ecore.org.cocome.tradingsystem.util.scope.presentation.ScopeModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ScopeModelFile.gif">
+         <description>%_UI_ScopeModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.org.cocome.tradingsystem.util.scope.presentation.ScopeEditorID"
+            name="%_UI_ScopeEditor_label"
+            icon="icons/full/obj16/ScopeModelFile.gif"
+            extensions="scope"
+            class="ecore.org.cocome.tradingsystem.util.scope.presentation.ScopeEditor"
+            contributorClass="ecore.org.cocome.tradingsystem.util.scope.presentation.ScopeActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated cloud-logic-core-impl -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ecore.org.cocome.tradingsystem.util.scope.context.presentation.ContextModelWizardID"
+            name="%_UI_ContextModelWizard_label"
+            class="ecore.org.cocome.tradingsystem.util.scope.context.presentation.ContextModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ContextModelFile.gif">
+         <description>%_UI_ContextModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated cloud-logic-core-impl -->
+      <editor
+            id="ecore.org.cocome.tradingsystem.util.scope.context.presentation.ContextEditorID"
+            name="%_UI_ContextEditor_label"
+            icon="icons/full/obj16/ContextModelFile.gif"
+            extensions="context"
+            class="ecore.org.cocome.tradingsystem.util.scope.context.presentation.ContextEditor"
+            contributorClass="ecore.org.cocome.tradingsystem.util.scope.context.presentation.ContextActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
